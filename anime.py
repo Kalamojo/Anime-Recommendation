@@ -130,18 +130,3 @@ def recommend_by_title(title, cosine_sim = cosine_sim):
         
     return np.vstack((recommended_anime,score_series.iloc[1:11].values)).T
 
-#Recommendation by Genre
-genre_indices = pd.Series(anime_old[anime["genre"]=="tv"]["Genres"])
-
-def recommend_by_genre(genre, cosine_sim = cosine_sim):
-    recommended_anime = []
-    idx = genre_indices[genre_indices == genre].index[0]
-    score_series = pd.Series(cosine_sim[idx]).sort_values(ascending = False)
-    top_10_indices = list(score_series.iloc[1:11].index)
-    
-    for i in top_10_indices:
-        recommended_anime.append(list(anime_old['Name'])[i])
-        
-    return np.vstack((recommended_anime,score_series.iloc[1:11].values)).T
-
-print(recommend_by_title('Chainsaw Man'))
