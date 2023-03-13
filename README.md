@@ -8,8 +8,6 @@ Given a dataset of various anime titles, along with a dataset of users and their
 
 ![graph of cosine similarity, and distance, between 2 vectors](https://www.researchgate.net/publication/320914786/figure/fig2/AS:558221849841664@1510101868614/The-difference-between-Euclidean-distance-and-cosine-similarity.png)
 
-432 × 371
-
 ## Downloads
 
 Link to [Download Datasets](https://drive.google.com/drive/folders/1q1nOMvyaCYG7nGmf8yN5MwCyKc0TdA-B?usp=sharing)
