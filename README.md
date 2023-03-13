@@ -1,3 +1,11 @@
 # Anime-Recommendation
 
-Link to [Download Users Dataset](https://drive.google.com/uc?export=download&id=1ziexNQvec0ilylv-U73nJoKuWenKCk5v&confirm=t&uuid=99001e73-0e6c-4793-b4ce-ac3033cbe37e&at=AHV7M3d_G0FOnB8Mm8zWlcZOSdsV:1670106934976)
+This project was an exercise of sorts, conducted by myself, Kolade Alabi, and my partner Kofi Nketia, to gain insight and make use of data without the use of machine learning. We even wrote about it and submitted this project as a part of a hackthon.
+
+> You can read this paper [Here](https://www.overleaf.com/read/gdqjrjrkxtpk)
+
+## Downloads
+
+Link to [Download Datasets](https://drive.google.com/drive/folders/1q1nOMvyaCYG7nGmf8yN5MwCyKc0TdA-B?usp=sharing)
+
+Alternatively, you can use load_files.py to automatically download all datasets. However, this script is primarily for the purpose of displaying the data preprocessing methods. It may take multiple hours to complete downloading and creating each dataset.
