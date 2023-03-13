@@ -6,10 +6,12 @@ This project was an exercise of sorts, conducted by myself, Kolade Alabi, and my
 
 Given a dataset of various anime titles, along with a dataset of users and their ratings of certain anime, our task was to recommend an anime to a user. We accomplished this by way of extensive preprocessing and a simple similarity/distance calculation.
 
+<p align="center">
 ![graph of cosine similarity, and distance, between 2 vectors](https://github.com/Kalamojo/Anime-Recommendation/blob/main/The-difference-between-Euclidean-distance-and-cosine-similarity.png)
+</p>
 
 ## Downloads
 
-Link to [Download Datasets|center](https://drive.google.com/drive/folders/1q1nOMvyaCYG7nGmf8yN5MwCyKc0TdA-B?usp=sharing)
+Link to [Download Datasets](https://drive.google.com/drive/folders/1q1nOMvyaCYG7nGmf8yN5MwCyKc0TdA-B?usp=sharing)
 
 Alternatively, you can use load_files.py to automatically download all datasets. However, this script is primarily for the purpose of displaying the data preprocessing methods. It may take multiple hours to complete downloading and creating each dataset.
