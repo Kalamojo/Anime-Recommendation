@@ -6,6 +6,8 @@ This project was an exercise of sorts, conducted by myself, Kolade Alabi, and my
 
 Given a dataset of various anime titles, along with a dataset of users and their ratings of certain anime, our task was to recommend an anime to a user. We accomplished this by way of extensive preprocessing and a simple similarity/distance calculation.
 
+![graph of cosine similarity, and distance, between 2 vectors](https://www.researchgate.net/publication/320914786/figure/fig2/AS:558221849841664@1510101868614/The-difference-between-Euclidean-distance-and-cosine-similarity.png)
+
 ## Downloads
 
 Link to [Download Datasets](https://drive.google.com/drive/folders/1q1nOMvyaCYG7nGmf8yN5MwCyKc0TdA-B?usp=sharing)
